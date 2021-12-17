@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My_church</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Kurale&family=Lobster&family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+        <script src="jquery-3.6.0.min.js"></script>
+        
+    </head>
+    
+    <body>
+       <header>
+           <div class="header_logo" id="headerLogo">
+           MY CHURCH
+           </div>
+
+           <div class="header_menu">
+               <a href="#intro" class="menu_item">Главная</a>
+               <a href="#broadcast" class="menu_item">Трансляции</a>
+               <a href="#about" class="menu_item">О нас</a>
+               <a href="#ministries" class="menu_item">Служения</a>
+               <a href="#achievements" class="menu_item">Наши достижения</a>
+               <a href="#send" class="menu_item">Обратная связь</a>
+           </div>
+ 
+       </header>
+
+       <main>
+<section class="intro" id="intro"> 
+    <div class="wrapper">
+        <div class="intro_wrapper">
+            <div class="intro_left">
+              <img src="church.jfif" class="intro_img" alt="INTRO">  
+            </div>
+           
+            <div class="intro_right">
+                <h1 id="myTitle" class="intro_title">Добро пожаловать в церковь My Church!</h1>
+                <button id="myButton" class="intro_send">НАПИШИТЕ НАМ</button>    
+            </div>
+
+            <div id="myModal" class="modal">
+                <div id="modalContent" class="modal_content">
+                    <div id="myClose" class="close">&times;</div>
+                    <div class="wrapper">
+                        <div class="send_wrapper">
+                            <h1 class="send_title">НАПИШИТЕ НАМ</h1>
+                            <form>
+                                <div class="send_form">
+                                    <div>
+                                        <input type="text" class="form1 formstyle" placeholder="Ваше имя">
+                                        <input type="email" class="form2 formstyle" placeholder="Ваш email">  
+                                    </div>
+                                    <textarea cols="30" rows="10" class="form3 formstyle" placeholder="Сообщение"></textarea>
+                                    <button class="send_button1">Отправить</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div> 
+        </div>
+    </div>
+</section>
+
+<section class="broadcast" id="broadcast">
+    <div class="wrapper">
+        <div class="broadcast_wrapper">
+            <h1 class="broadcast_title">Присоединяйтесь к прямым трансляциям</h1>
+            <video src="broadcast.mp4" class="broadcast_video" controls = "controls"></video>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="wrapper">
+        <div class="about_wrapper">
+            <h1 class="about_title">
+                О НАС
+            </h1>
+            <p class="about_text">
+                Церковь «My Chucrh», входящая в Российский объединенный союз христиан веры евангельской (пятидесятников), считает себя частью Вселенской Церкви – Тела Христова и стремится к братскому общению и служению Господу со всеми, кто верует в Христа и служит Ему. Вероучение нашей церкви основывается на Священном Писании Ветхого и Нового Заветов и соответствует Никео-Цареградскому Символу веры и вероучительному определению IV Вселенского (Халкидонского) Собора (Халкидонскому оросу)
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="ministries" id="ministries">
+    <div class="wrapper">
+      <div class="ministries_wrapper">
+          <h1 class="ministries_title">
+              СЛУЖЕНИЯ
+          </h1>
+          <div class="ministries_foto">
+              <img class="minis_foto" src="study.jpg" alt="STUDY">
+              <img class="minis_foto" src="pray.jpg" alt="PRAY">
+              <img class="minis_foto" src="family.jpg" alt="FAMILY">
+              <img class="minis_foto" src="help.jpg" alt="HELP">
+              <img class="minis_foto" src="music.jpg" alt="MUSIC">
+
+          </div>
+      </div>
+    </div>
+</section>
+
+<section class="achievements" id="achievements">
+    <div class="wrapper">
+        <h3 class="achievements_title">НАШИ ДОСТИЖЕНИЯ</h3>
+        <div class="achievements_wrapper">
+            <div class="achievements_left">
+                <h3 class="skill skill1">Библейское ученичество</h3>
+                <h3 class="skill skill2">Миссионерское служение</h3>
+                <h3 class="skill skill3">Финансовая помощь</h3>
+            </div>
+    
+            <div class="achievements_right">
+                <img src="achievements.jpg" alt="achievements" class="achievements_img">
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<section>
+    <div class="gallery">
+        <div class="gallery_str">
+            <a href="1.jpg" class="lightzoom">
+                <img src="1.jpg" class="gallery_img" alt="Картинка1">  
+            </a>
+
+            <a href="2.jpg" class="lightzoom">
+                <img src="2.jpg" class="gallery_img" alt="Картинка2">  
+            </a>
+
+            <a href="3.jpg" class="lightzoom">
+                <img src="3.jpg" class="gallery_img" alt= "Картинка3">  
+            </a>
+
+            <a href="4.jpg" class="lightzoom">
+                <img src="4.jpg" class="gallery_img" alt="Картинка4">  
+            </a>   
+          </div>
+    </div>
+</section>
+
+<section class="send" id="send">
+    <div class="wrapper">
+        <div class="send_wrapper">
+            <h1 class="send_title">НАПИШИТЕ НАМ</h1>
+            <form>
+                <div class="send_form">
+                    <div>
+                        <input type="text" class="form1 formstyle" placeholder="Ваше имя">
+                        <input type="email" class="form2 formstyle" placeholder="Ваш email">  
+                    </div>
+                    <textarea cols="30" rows="10" class="form3 formstyle" placeholder="Сообщение"></textarea>
+                    <button class="send_button1">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+      
+<footer>
+    <div class="wrapper">
+        <div class="footer_wrapper">
+            <div class="left_footer">
+               <h3 class="footer_title">&#169; 1993-2021 Объединение церквей "My Church"</h3>
+            </div>
+
+            <div class="right_footer">
+               <img src="vk.png" alt="VK" class="footer_img">
+               <img src="vk1.png" alt="VK" class="footer_img">
+               <img src="fs.png" alt="FS" class="footer_img">
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</main>
+        <link rel="stylesheet" href="lightzoom/style.css">
+        <script src="lightzoom/lightzoom.js"></script>
+        <script>jQuery(".lightzoom").lightzoom({speed: 400, viewTitle: false, isOverlayClickClosing: true});</script>
+
+        <script src="myscript.js"></script>
+    </body>
+</html>
